@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+#questionContainer {
+  width: 30%;
+  min-width: 275px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 1px 1px 2px grey;
+  z-index: 100;
+  margin: 20px;
+}
+
+#qButton {
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 7px;
+  color: white;
+  transition: background-color 0.5s ease;
+  background-color: rgb(89, 111, 204);
+  box-shadow: 1px 1px 2px grey;
+}
+#qButton:hover {
+  background-color: rgb(109, 131, 224);
+}
+#question {
+  padding: 5px;
+  margin: 5px;
+  display: none;
+}
+/*#container {
+  position: relative;
+  width: 90%;
+  height: 95vh;
+  margin: 0 auto;
+}*/
+
+#responseContainer {
+  position: absolute;
+  bottom: 10px;
+  width: 95%;
+  min-width: 270px;
+  margin: 25px auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  z-index: 3;
+}
+
+.response {
+  display: inline-block;
+  width: 90%;
+  min-width: 250px;
+  max-width: 450px;
+  margin: 7px;
+  padding: 15px;
+  border-radius: 7px;
+  color: white;
+  transition: background-color 0.5s ease;
+  background-color: rgb(89, 111, 204);
+  box-shadow: 1px 1px 2px grey;
+}
+
+.response:hover {
+  background-color: rgb(109, 131, 224);
+}
+
+#win {
+  background-color: cornflowerblue;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+#lose {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+.video-background {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #questionContainer {
+    margin: 5px auto;
+    text-align: center;
+  }
+  .question {
+    margin: 5px auto;
+    text-align: center;
+  }
+
+  .response {
+    padding: 10px;
+  }
+
+  #responseContainer {
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}

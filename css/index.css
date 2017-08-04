@@ -1,0 +1,13 @@
+body {
+}
+#introSplash {
+  background-image: url("../img/002-BG.jpg");
+  background-size: cover;
+  background-position: right bottom;
+  min-height: 90vh;
+  overflow: auto;
+}
+
+.card {
+  background-color: rgba(90, 90, 90, 0.80);
+}
