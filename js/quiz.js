@@ -28,14 +28,14 @@ let incorrectCount = 0;
       $win.style.display = 'block';
       setTimeout(function() {
         $win.style.display = 'none';
-      }, 500);
+      }, 800);
     } else {
       incorrectCount++;
       $lose = document.getElementById('lose');
       $lose.style.display = 'block';
       setTimeout(function() {
         $lose.style.display = 'none';
-      }, 500);
+      }, 800);
     }
     if (incorrectCount >= 5) {
       window.location.href = 'quizfail.html';
