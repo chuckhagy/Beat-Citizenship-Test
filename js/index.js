@@ -2,20 +2,20 @@ const homeData = [
   {
     title: 'History and Civics',
     text: 'Study 10 random questions from the official US History and Civics test. Get 6 correct to pass!',
-    link: '<a href="quiz.html">Take the quiz!</a>'
+    link: '<a href="quiz.html">Click Here to Take the Quiz!</a>'
   },
   {
-    title: 'Pts 2 - 5',
+    title: 'Pts 2-5',
     text: 'Personal & Contact Info',
     link: '<a href="#">Study Now</a>'
   },
   {
-    title: 'Pts 6 - 8',
+    title: 'Pts 6-8',
     text: 'Parents, Height & Work',
     link: '<a href="#">Study Now</a>'
   },
   {
-    title: 'Pts 9 - 11',
+    title: 'Pts 9-11',
     text: 'Travel, Marriage & Kids',
     link: '<a href="#">Study Now</a>'
   },
@@ -35,9 +35,9 @@ const homeData = [
     link: '<a href="#">Study Now</a>'
   },
   {
-    title: 'Full Version of NC-400 Interview',
+    title: 'Full Version of the NC-400 Immigration Interview',
     text: 'Study all of the parts of the NC-400 interview in one place, just like in the real world.',
-    link: '<a href="#">Take the full interview now. Allow up to 30 minutes.</a>'
+    link: '<a href="#">Take the full interview now. Allow up to 30 minutes to complete this.</a>'
   }
 ];
 

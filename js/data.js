@@ -1,3 +1,374 @@
+let infoNC = [
+  {
+    question: "What's your full name?",
+    videoId: 'https://www.youtube.com/watch?v=Unmgt_ERwuA'
+  },
+  {
+    question: 'Have you ever used other names?',
+    videoId: 'https://www.youtube.com/watch?v=XQjrkxpP4aQ'
+  },
+  {
+    question: 'What is your date of birth?',
+    videoId: 'https://www.youtube.com/watch?v=ZlpIXcO21iQ'
+  },
+  {
+    question: "What's the date you became a permanent resident?",
+    videoId: 'https://www.youtube.com/watch?v=WEv5IePGYCM'
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  },
+  {
+    question: '',
+    videoId: ''
+  }
+];
+
 let historyCivics = [
   {
     question: '1. What is the supreme law of the land?',
