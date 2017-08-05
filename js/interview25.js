@@ -1,14 +1,13 @@
 let i = 0;
 let $continueButton = document.getElementById('continueButton');
 $continueButton.addEventListener('click', function(event) {
-  generateInterview25();
+  console.log('i value: ' + i);
   i++;
-  console.log('inside: ' + i);
+  generateInterview25();
 });
 
 function generateInterview25() {
-  if (i < 14) {
-    console.log('outside: ' + i);
+  if (i < 13) {
     let $question = document.getElementById('question');
     let questionIndex = i;
     let myQuestion = infoNC[questionIndex];
@@ -26,9 +25,11 @@ function generateInterview25() {
   $qButton.addEventListener('click', function(event) {
     if (state === 0) {
       $question.style.display = 'block';
+      $qButton.innerText = 'Click to Hide Question';
       state++;
     } else {
       $question.style.display = 'none';
+      $qButton.innerText = 'Click to See Question';
       state--;
     }
   });

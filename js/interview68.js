@@ -1,8 +1,8 @@
 let i = 13;
 let $continueButton = document.getElementById('continueButton');
 $continueButton.addEventListener('click', function(event) {
-  generateInterview25();
   i++;
+  generateInterview25();
   console.log('inside: ' + i);
 });
 
@@ -26,9 +26,11 @@ function generateInterview25() {
   $qButton.addEventListener('click', function(event) {
     if (state === 0) {
       $question.style.display = 'block';
+      $qButton.innerText = 'Click to Hide Question';
       state++;
     } else {
       $question.style.display = 'none';
+      $qButton.innerText = 'Click to See Question';
       state--;
     }
   });
