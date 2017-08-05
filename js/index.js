@@ -7,37 +7,37 @@ const homeData = [
   {
     title: 'Pts 2-5',
     text: 'Personal & Contact Info',
-    link: '<a href="#">Study Now</a>'
+    link: '<a href="interview25.html">Study Now</a>'
   },
   {
     title: 'Pts 6-8',
     text: 'Parents, Height & Work',
-    link: '<a href="#">Study Now</a>'
+    link: '<a href="interview68.html">Study Now</a>'
   },
   {
     title: 'Pts 9-11',
     text: 'Travel, Marriage & Kids',
-    link: '<a href="#">Study Now</a>'
+    link: '<a href="interview911.html">Study Now</a>'
   },
   {
     title: 'Pt 12a',
     text: 'First part of these questions.',
-    link: '<a href="#">Study Now</a>'
+    link: '<a href="interview12a.html">Study Now</a>'
   },
   {
     title: 'Pt 12b',
     text: 'Second part of these questions.',
-    link: '<a href="#">Study Now</a>'
+    link: '<a href="interview12b.html">Study Now</a>'
   },
   {
     title: 'Pt 12c',
     text: 'Third part of these questions.',
-    link: '<a href="#">Study Now</a>'
+    link: '<a href="interview12c.html">Study Now</a>'
   },
   {
     title: 'Full Version of the NC-400 Immigration Interview',
     text: 'Study all of the parts of the NC-400 interview in one place, just like in the real world.',
-    link: '<a href="#">Take the full interview now. Allow up to 30 minutes to complete this.</a>'
+    link: '<a href="interviewfull.html">Take the full interview now. Allow up to 30 minutes to complete this.</a>'
   }
 ];
 

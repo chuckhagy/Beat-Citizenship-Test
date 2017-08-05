@@ -49,7 +49,6 @@ let incorrectCount = 0;
 })();
 
 function generateQuiz() {
-  console.log(infoNC.length);
   $responseContainer.innerHTML = '';
   let $question = document.getElementById('question');
   let questionIndex = Math.floor(Math.random() * historyCivics.length);

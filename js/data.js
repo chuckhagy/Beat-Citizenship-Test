@@ -1,374 +1,374 @@
 let infoNC = [
   {
     question: "What's your full name?",
-    videoId: 'https://www.youtube.com/watch?v=Unmgt_ERwuA'
+    videoId: 'https://www.youtube.com/embed/Unmgt_ERwuA?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever used other names?',
-    videoId: 'https://www.youtube.com/watch?v=XQjrkxpP4aQ'
+    videoId: 'https://www.youtube.com/embed/XQjrkxpP4aQ?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'What is your date of birth?',
-    videoId: 'https://www.youtube.com/watch?v=ZlpIXcO21iQ'
+    videoId: 'https://www.youtube.com/embed/ZlpIXcO21iQ?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: "What's the date you became a permanent resident?",
-    videoId: 'https://www.youtube.com/watch?v=WEv5IePGYCM'
+    videoId: 'https://www.youtube.com/embed/WEv5IePGYCM?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'How did you get your green card?',
-    videoId: 'https://www.youtube.com/watch?v=gig7l0ffG48'
+    videoId: 'https://www.youtube.com/embed/gig7l0ffG48?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Where were you born?',
-    videoId: 'https://www.youtube.com/watch?v=BPtbzi5VToU'
+    videoId: 'https://www.youtube.com/embed/BPtbzi5VToU?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'What is your country of citizenship?',
-    videoId: 'https://www.youtube.com/watch?v=5FRT1mGnmn4'
+    videoId: 'https://www.youtube.com/embed/5FRT1mGnmn4?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Are you requesting an accommodation to the naturalization process because of a disability or impairment?',
-    videoId: 'https://www.youtube.com/watch?v=T91J065gptw'
+    videoId: 'https://www.youtube.com/embed/T91J065gptw?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: "What's your phone number?",
-    videoId: 'https://www.youtube.com/watch?v=SwfBC0nuyKg'
+    videoId: 'https://www.youtube.com/embed/SwfBC0nuyKg?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Is that a cell phone or a land line?',
-    videoId: 'https://www.youtube.com/watch?v=mvMCnHRdq5A'
+    videoId: 'https://www.youtube.com/embed/mvMCnHRdq5A?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'What is your current address?',
-    videoId: 'https://www.youtube.com/watch?v=mmjP2T_dt2g'
+    videoId: 'https://www.youtube.com/embed/mmjP2T_dt2g?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'And how long have you lived at that address',
-    videoId: 'https://www.youtube.com/watch?v=gYCdNMbQB8k'
+    videoId: 'https://www.youtube.com/embed/gYCdNMbQB8k?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Who do you live with currently?',
-    videoId: 'https://www.youtube.com/watch?v=B1lqlO7mDXQ'
+    videoId: 'https://www.youtube.com/embed/B1lqlO7mDXQ?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Is your mother a United States citizen?',
-    videoId: 'https://www.youtube.com/watch?v=muCcHy4kAJA'
+    videoId: 'https://www.youtube.com/embed/muCcHy4kAJA?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Is your father a United States citizen?',
-    videoId: 'https://www.youtube.com/watch?v=cckrjD5-foQ'
+    videoId: 'https://www.youtube.com/embed/cckrjD5-foQ?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'How tall are you?',
-    videoId: 'https://www.youtube.com/watch?v=8euR5CX7QJg'
+    videoId: 'https://www.youtube.com/embed/8euR5CX7QJg?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Do you work?',
-    videoId: 'https://www.youtube.com/watch?v=gCPhCULa4uk'
+    videoId: 'https://www.youtube.com/embed/gCPhCULa4uk?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Where do you work?',
-    videoId: 'https://www.youtube.com/watch?v=UETEF2-3VbQ'
+    videoId: 'https://www.youtube.com/embed/UETEF2-3VbQ?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'How long have you worked there?',
-    videoId: 'https://www.youtube.com/watch?v=k1qT8t55hh4'
+    videoId: 'https://www.youtube.com/embed/k1qT8t55hh4?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: "What's your current occupation?",
-    videoId: 'https://www.youtube.com/watch?v=b1TMi0oV8Qw'
+    videoId: 'https://www.youtube.com/embed/b1TMi0oV8Qw?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Do you pay your taxes every year?',
-    videoId: 'https://www.youtube.com/watch?v=VlweurNsSpY'
+    videoId: 'https://www.youtube.com/embed/VlweurNsSpY?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'When was the last time you paid your taxes?',
-    videoId: 'https://www.youtube.com/watch?v=YXa7oEB0PmE'
+    videoId: 'https://www.youtube.com/embed/YXa7oEB0PmE?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Do you owe any taxes?',
-    videoId: 'https://www.youtube.com/watch?v=KBa-bREyxlo'
+    videoId: 'https://www.youtube.com/embed/KBa-bREyxlo?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'How many total days did you spend outside the United States during the last 5 years?',
-    videoId: 'https://www.youtube.com/watch?v=DxBlUUpbQME'
+    videoId: 'https://www.youtube.com/embed/DxBlUUpbQME?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'How many total trips did you take in the last 5 years?',
-    videoId: 'https://www.youtube.com/watch?v=0cCLqh6rYcM'
+    videoId: 'https://www.youtube.com/embed/0cCLqh6rYcM?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'When was your last trip?',
-    videoId: 'https://www.youtube.com/watch?v=Y3JLPSzaFXY'
+    videoId: 'https://www.youtube.com/embed/Y3JLPSzaFXY?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'What countries did you visit on that trip?',
-    videoId: 'https://www.youtube.com/watch?v=Q_kGYVduSbE'
+    videoId: 'https://www.youtube.com/embed/Q_kGYVduSbE?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'What was the purpose of your trip?',
-    videoId: 'https://www.youtube.com/watch?v=D-IT13I0nis'
+    videoId: 'https://www.youtube.com/embed/D-IT13I0nis?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Who traveled with you?',
-    videoId: 'https://www.youtube.com/watch?v=hGRDY-y4zpo'
+    videoId: 'https://www.youtube.com/embed/hGRDY-y4zpo?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever stayed more than 6 months on any trip in the last 5 years?',
-    videoId: 'https://www.youtube.com/watch?v=NLrSPPFfXqU'
+    videoId: 'https://www.youtube.com/embed/NLrSPPFfXqU?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'What is your current marital status?',
-    videoId: 'https://www.youtube.com/watch?v=2KBog5Sxe9M'
+    videoId: 'https://www.youtube.com/embed/2KBog5Sxe9M?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'How many times have you been married?',
-    videoId: 'https://www.youtube.com/watch?v=8nxNWKhgpU0'
+    videoId: 'https://www.youtube.com/embed/8nxNWKhgpU0?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'How many children have you had?',
-    videoId: 'https://www.youtube.com/watch?v=geWJabKZiJ8'
+    videoId: 'https://www.youtube.com/embed/geWJabKZiJ8?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever claimed to be a United States citizen?',
-    videoId: 'https://www.youtube.com/watch?v=-Jq1aKPeAco'
+    videoId: 'https://www.youtube.com/embed/-Jq1aKPeAco?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever registered to vote in any Federal, State or Local election in the United States?',
-    videoId: 'https://www.youtube.com/watch?v=YX5snJEq0eo'
+    videoId: 'https://www.youtube.com/embed/YX5snJEq0eo?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever voted in any Federal, State or Local election in the United States?',
-    videoId: 'https://www.youtube.com/watch?v=VzfBIREgbtA'
+    videoId: 'https://www.youtube.com/embed/VzfBIREgbtA?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Why not?',
-    videoId: 'https://www.youtube.com/watch?v=D8C_bYh6vCI'
+    videoId: 'https://www.youtube.com/embed/D8C_bYh6vCI?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Do you have, or did you ever have, a hereditary title or an order of nobility in any foreign country?',
-    videoId: 'https://www.youtube.com/watch?v=EWOfmJiHnVA'
+    videoId: 'https://www.youtube.com/embed/EWOfmJiHnVA?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever been declared legally incompetent or been confined to a mental institution?',
-    videoId: 'https://www.youtube.com/watch?v=5UfGCbDB3HI'
+    videoId: 'https://www.youtube.com/embed/5UfGCbDB3HI?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Do you owe any overdue Federal, State or Local taxes?',
-    videoId: 'https://www.youtube.com/watch?v=oVimMCBGZIQ'
+    videoId: 'https://www.youtube.com/embed/oVimMCBGZIQ?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever NOT filed a Federal, State, or Local tax return since you became a permanent resident?',
-    videoId: 'https://www.youtube.com/watch?v=onVMBq5jaxo'
+    videoId: 'https://www.youtube.com/embed/onVMBq5jaxo?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question:
       'Have you ever been a member of, involved in, or in any way associated with, any organization association, fund, foundation, party, club, society, or similar group in the United States or in any other location in the world?',
-    videoId: 'https://www.youtube.com/watch?v=i_VY-ynRmRs'
+    videoId: 'https://www.youtube.com/embed/i_VY-ynRmRs?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever been a member of the Communist Party?',
-    videoId: 'https://www.youtube.com/watch?v=PR_C4dmAtV8'
+    videoId: 'https://www.youtube.com/embed/PR_C4dmAtV8?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Any other totalitarian party?',
-    videoId: 'https://www.youtube.com/watch?v=YUSVT-pLpd0'
+    videoId: 'https://www.youtube.com/embed/YUSVT-pLpd0?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'A terrorist organization?',
-    videoId: 'https://www.youtube.com/watch?v=Ly-WXrEMJP0'
+    videoId: 'https://www.youtube.com/embed/Ly-WXrEMJP0?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever advocated the overthrow of any government by force or violence?',
-    videoId: 'https://www.youtube.com/watch?v=RlccWUgfzCg'
+    videoId: 'https://www.youtube.com/embed/RlccWUgfzCg?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever persecuted any person because of race, religion, national origin or political opinion?',
-    videoId: 'https://www.youtube.com/watch?v=H_PbkC9QCZA'
+    videoId: 'https://www.youtube.com/embed/H_PbkC9QCZA?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Were you ever inolved with any of the following... Genocide?',
-    videoId: 'https://www.youtube.com/watch?v=ihf0oj4qsAM'
+    videoId: 'https://www.youtube.com/embed/ihf0oj4qsAM?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Torture?',
-    videoId: 'https://www.youtube.com/watch?v=-PDBzzGdvPI'
+    videoId: 'https://www.youtube.com/embed/-PDBzzGdvPI?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Badly hurting, or trying to hurt, a person on purpose?',
-    videoId: 'https://www.youtube.com/watch?v=hZTgUyVq2fU'
+    videoId: 'https://www.youtube.com/embed/hZTgUyVq2fU?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Forcing, or trying to force, someone to have any kind of sexual contact or relations?',
-    videoId: 'https://www.youtube.com/watch?v=BhSNLWClUmo'
+    videoId: 'https://www.youtube.com/embed/BhSNLWClUmo?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Not letting someone practice his or her religion?',
-    videoId: 'https://www.youtube.com/watch?v=s68FpoeK1HI'
+    videoId: 'https://www.youtube.com/embed/s68FpoeK1HI?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Were you ever a member of, or did you ever serve in, help or otherwise participate in any of the following groups... Military unit?',
-    videoId: 'https://www.youtube.com/watch?v=KXjKsHKZxVQ'
+    videoId: 'https://www.youtube.com/embed/KXjKsHKZxVQ?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Police unit?',
-    videoId: 'https://www.youtube.com/watch?v=ShXn2vnZw7I'
+    videoId: 'https://www.youtube.com/embed/ShXn2vnZw7I?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Rebel group?',
-    videoId: 'https://www.youtube.com/watch?v=vBL2vhWmFv8'
+    videoId: 'https://www.youtube.com/embed/vBL2vhWmFv8?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Guerrilla group?',
-    videoId: 'https://www.youtube.com/watch?v=gWCNyGaSWN0'
+    videoId: 'https://www.youtube.com/embed/gWCNyGaSWN0?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Militia?',
-    videoId: 'https://www.youtube.com/watch?v=iXLJci8xIa8'
+    videoId: 'https://www.youtube.com/embed/iXLJci8xIa8?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Insurgent organization?',
-    videoId: 'https://www.youtube.com/watch?v=leIt2NG5eg8'
+    videoId: 'https://www.youtube.com/embed/leIt2NG5eg8?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Were you ever a worker, volunteer, or soldier - or did you otherwise serve - in any of the following... Prison or jail?',
-    videoId: 'https://www.youtube.com/watch?v=5DwlaR3plvg'
+    videoId: 'https://www.youtube.com/embed/5DwlaR3plvg?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Prison camp?',
-    videoId: 'https://www.youtube.com/watch?v=JV95FOWITCw'
+    videoId: 'https://www.youtube.com/embed/JV95FOWITCw?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Labor camp?',
-    videoId: 'https://www.youtube.com/watch?v=G8UW0s8de8Y'
+    videoId: 'https://www.youtube.com/embed/G8UW0s8de8Y?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Any other place where people were forced to stay?',
-    videoId: 'https://www.youtube.com/watch?v=I0nk8pBNu4I'
+    videoId: 'https://www.youtube.com/embed/I0nk8pBNu4I?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question:
       'Were you ever part of any group, or did you ever help any Group, Unit, or Organization that used a weapon against any person, or threatened to do so?',
-    videoId: 'https://www.youtube.com/watch?v=CYPEClnXG7I'
+    videoId: 'https://www.youtube.com/embed/CYPEClnXG7I?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Did you ever sell, give or provide weapons to any person, or help another person sell, give or provide weapons to any person?',
-    videoId: 'https://www.youtube.com/watch?v=I9avruKbT3M'
+    videoId: 'https://www.youtube.com/embed/I9avruKbT3M?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Did you ever receive any kind of military, paramilitary or weapons training?',
-    videoId: 'https://www.youtube.com/watch?v=I8BvkXB3MJU'
+    videoId: 'https://www.youtube.com/embed/I8BvkXB3MJU?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Did you ever recruit, enlist, conscript, or use any other person under the age of 15 to serve in or help an armed force or group?',
-    videoId: 'https://www.youtube.com/watch?v=emp5oP1tS_c'
+    videoId: 'https://www.youtube.com/embed/emp5oP1tS_c?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever committed, assisted in committing, or attempted to commit - a crime or office for which you were NOT arrested?',
-    videoId: 'https://www.youtube.com/watch?v=96mIb9YuJNk'
+    videoId: 'https://www.youtube.com/embed/96mIb9YuJNk?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever been arrested, cited or detained by any law enforcement officer for any reason?',
-    videoId: 'https://www.youtube.com/watch?v=JlwDiqXibG8'
+    videoId: 'https://www.youtube.com/embed/JlwDiqXibG8?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever been charged with any crime or offense?',
-    videoId: 'https://www.youtube.com/watch?v=qUm7i5vErl4'
+    videoId: 'https://www.youtube.com/embed/qUm7i5vErl4?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever been convicted of a crime or offense?',
-    videoId: 'https://www.youtube.com/watch?v=JuAksiDM0Eo'
+    videoId: 'https://www.youtube.com/embed/JuAksiDM0Eo?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever received a suspended sentence, been placed on probation or been paroled?',
-    videoId: 'https://www.youtube.com/watch?v=h4slggauL0Q'
+    videoId: 'https://www.youtube.com/embed/h4slggauL0Q?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever been in jail or prison?',
-    videoId: 'https://www.youtube.com/watch?v=AqP539n_490'
+    videoId: 'https://www.youtube.com/embed/AqP539n_490?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever had a drinking problem?',
-    videoId: 'https://www.youtube.com/watch?v=ND9hO1fl2cs'
+    videoId: 'https://www.youtube.com/embed/ND9hO1fl2cs?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever been a prostitute or procured anyone for prostitution?',
-    videoId: 'https://www.youtube.com/watch?v=hXFCAuQmlqY'
+    videoId: 'https://www.youtube.com/embed/hXFCAuQmlqY?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever sold or trafficked drugs or narcotics?',
-    videoId: 'https://www.youtube.com/watch?v=NJFV8c3kfc4'
+    videoId: 'https://www.youtube.com/embed/NJFV8c3kfc4?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever been married to more than one person at a time?',
-    videoId: 'https://www.youtube.com/watch?v=jIf5FwtwKMA'
+    videoId: 'https://www.youtube.com/embed/jIf5FwtwKMA?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever been married to someone in order to obtain an immigration benefit?',
-    videoId: 'https://www.youtube.com/watch?v=ABRI0rw97hs'
+    videoId: 'https://www.youtube.com/embed/ABRI0rw97hs?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever helped anyone enter, or try to enter, the United States illegally?',
-    videoId: 'https://www.youtube.com/watch?v=rThBlsocyv8'
+    videoId: 'https://www.youtube.com/embed/rThBlsocyv8?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever gambled illegally or received income from illegal gambling?',
-    videoId: 'https://www.youtube.com/watch?v=dTuh20JIuKQ'
+    videoId: 'https://www.youtube.com/embed/dTuh20JIuKQ?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever failed to support your dependents or to pay alimony?',
-    videoId: 'https://www.youtube.com/watch?v=ybAxo6ZLvi0'
+    videoId: 'https://www.youtube.com/embed/ybAxo6ZLvi0?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever made any misrepresentation to obtain any public benefit in the United States?',
-    videoId: 'https://www.youtube.com/watch?v=jKeKmZl46TQ'
+    videoId: 'https://www.youtube.com/embed/jKeKmZl46TQ?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever given any U.S. government official any information or documentation that was flase, fraudulent, or misleading?',
-    videoId: 'https://www.youtube.com/watch?v=eje8jtHIXHo'
+    videoId: 'https://www.youtube.com/embed/eje8jtHIXHo?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question:
       'Have you ever lied to any U.S. government official to gain entry or admission into the United States or to gain immigration benefits while in the United States?',
-    videoId: 'https://www.youtube.com/watch?v=IdOtclgcfKE'
+    videoId: 'https://www.youtube.com/embed/IdOtclgcfKE?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever been removed, excluded or deported from the United States?',
-    videoId: 'https://www.youtube.com/watch?v=IGEKws48Ba4'
+    videoId: 'https://www.youtube.com/embed/IGEKws48Ba4?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Have you ever served in the United States armed forces?',
-    videoId: 'https://www.youtube.com/watch?v=cFLDb4D3wrU'
+    videoId: 'https://www.youtube.com/embed/cFLDb4D3wrU?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Are you a male who lived in the United States any time between your 18th and 26th birthdays?',
-    videoId: 'https://www.youtube.com/watch?v=patBuCuw_PM'
+    videoId: 'https://www.youtube.com/embed/patBuCuw_PM?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Do you support the Constitution and form of government of the United States?',
-    videoId: 'https://www.youtube.com/watch?v=d7IvqbcjQzM'
+    videoId: 'https://www.youtube.com/embed/d7IvqbcjQzM?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Do you understand the full Oath of Allegiance to the United States?',
-    videoId: 'https://www.youtube.com/watch?v=rGCEA4Zfw5M'
+    videoId: 'https://www.youtube.com/embed/rGCEA4Zfw5M?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'Are you willing to take the full Oath of Allegiance to the United States?',
-    videoId: 'https://www.youtube.com/watch?v=CwmNlmnesbs'
+    videoId: 'https://www.youtube.com/embed/CwmNlmnesbs?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'If the law requires it, are you willing to bear arms on behalf of the United States?',
-    videoId: 'https://www.youtube.com/watch?v=ldrDSaXkKb4'
+    videoId: 'https://www.youtube.com/embed/ldrDSaXkKb4?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'If the law requires it, are you willing to perform noncombat services in the U.S. Armed Forces?',
-    videoId: 'https://www.youtube.com/watch?v=yWs0JvSJ89k'
+    videoId: 'https://www.youtube.com/embed/yWs0JvSJ89k?rel=0&amp;showinfo=0;autoplay=1'
   },
   {
     question: 'If the law requires it, are you willing to perform work of national importance under civilian direction?',
-    videoId: 'https://www.youtube.com/watch?v=L2Lvqot3QNA'
+    videoId: 'https://www.youtube.com/embed/L2Lvqot3QNA?rel=0&amp;showinfo=0;autoplay=1'
   }
 ];
 
