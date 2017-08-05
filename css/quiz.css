@@ -28,6 +28,7 @@ body {
   transition: background-color 0.5s ease;
   background-color: rgb(89, 111, 204);
   box-shadow: 1px 1px 2px grey;
+  font-size: 20px;
 }
 #qButton:hover {
   background-color: rgb(109, 131, 224);
@@ -36,20 +37,15 @@ body {
   padding: 5px;
   margin: 5px;
   display: none;
+  font-size: 24px;
 }
-/*#container {
-  position: relative;
-  width: 90%;
-  height: 95vh;
-  margin: 0 auto;
-}*/
 
 #responseContainer {
   position: absolute;
   bottom: 10px;
   width: 95%;
   min-width: 270px;
-  margin: 25px auto;
+  margin: 5px auto 55px auto;
   left: 50%;
   transform: translate(-50%, 0);
   text-align: center;
@@ -58,8 +54,8 @@ body {
 
 .response {
   display: inline-block;
-  width: 90%;
-  min-width: 250px;
+  width: 40%;
+  min-width: 280px;
   max-width: 450px;
   margin: 7px;
   padding: 15px;
@@ -68,6 +64,7 @@ body {
   transition: background-color 0.5s ease;
   background-color: rgb(89, 111, 204);
   box-shadow: 1px 1px 2px grey;
+  overflow: auto;
 }
 
 .response:hover {
@@ -106,18 +103,23 @@ body {
 }
 #continueButton {
   position: absolute;
-  bottom: 70px;
+  bottom: 90px;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 200px;
+  width: 300px;
   padding: 30px;
   text-align: center;
   color: white;
-  font-size: 18px;
+  font-size: 30px;
   box-shadow: 2px 2px 2px black;
-  background-color: cornflowerblue;
+  background-color: rgb(89, 111, 204);
   letter-spacing: 7px;
   text-transform: uppercase;
+  transition: background-color 0.5s ease;
+  border-radius: 14px;
+}
+#continueButton:hover {
+  background-color: rgb(109, 131, 224);
 }
 @media (min-aspect-ratio: 16/9) {
   .video-foreground {
@@ -133,23 +135,42 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   #questionContainer {
-    margin: 5px auto;
+    margin: 25px auto;
     text-align: center;
   }
-  .question {
+  #qButton {
     margin: 5px auto;
-    text-align: center;
+    font-size: 16px;
   }
 
   .response {
     padding: 10px;
+    width: 90%;
+    min-width: 240px;
+  }
+
+  #question {
+    padding: 5px;
+    margin: 5px;
+    display: none;
+    font-size: 16px;
+  }
+
+  #continueButton {
+    bottom: 70px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 200px;
+    padding: 30px;
+    font-size: 18px;
   }
 
   #responseContainer {
     padding: 5px;
     border-radius: 7px;
+    margin: 5px auto;
     background-color: rgba(255, 255, 255, 0.5);
   }
 }

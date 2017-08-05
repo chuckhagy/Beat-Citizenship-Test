@@ -512,10 +512,10 @@ let historyCivics = [
   {
     question: '18. How many U.S. Senators are there?',
     videoId: 'https://www.youtube.com/embed/RwdRESCTSJE?rel=0&amp;showinfo=0;autoplay=1;',
-    resp1: ['one hundred (100).', true],
-    resp2: ['four-hundred thirty five (435).', false],
-    resp3: ['twenty seven (27).', false],
-    resp4: ['two hundred (200).', false]
+    resp1: ['one hundred (100)', true],
+    resp2: ['four-hundred thirty five (435)', false],
+    resp3: ['twenty seven (27)', false],
+    resp4: ['two hundred (200)', false]
   },
   {
     question: '19. We elect a U.S. Senator for how many years?',

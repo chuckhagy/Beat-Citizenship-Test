@@ -53,7 +53,7 @@ const homeData = [
       $thisCard.classList.add('m4');
     }
     if (i === 0) {
-      $thisCard.innerHTML = `<div class="card" style="background-color: rgba(20, 20, 200, 0.80)"><div class="card-content white-text"><span class="card-title">${homeData[
+      $thisCard.innerHTML = `<div class="card" style="background-color: rgba(20, 20, 200, 0.80)"><div class="card-content white-text" style="margin-top: 20px;"><span class="card-title">${homeData[
         i
       ].title}</span><p>${homeData[i].text}</p></div>  <div class="card-action">${homeData[i].link}</div></div>`;
     } else if (i === 7) {
