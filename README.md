@@ -17,4 +17,4 @@ Students get 10 random questions at a time, based on the US government's publish
 ## Responsive Design
 Users can get a similar experience on small screens (including mobile) as well as desktop setups.
 ![screenshot](./README/screenshot3.png?raw=true)
-![screenshot](./README/screenshot4.png?raw=true)
+![screenshot](./README/screenshot5.png?raw=true)
