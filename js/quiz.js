@@ -1,4 +1,5 @@
 const $responseContainer = document.getElementById('responseContainer');
+
 let correctCount = 0;
 let incorrectCount = 0;
 
@@ -16,16 +17,20 @@ let incorrectCount = 0;
       state--;
     }
   });
+
   document.addEventListener('DOMContentLoaded', function(event) {
     generateQuiz();
   });
+
   $responseContainer.addEventListener('click', function(event) {
     if (event.target.value === undefined) {
       return;
     } else if (event.target.value === true) {
       correctCount++;
+
       $win = document.getElementById('win');
       $win.style.display = 'block';
+
       setTimeout(function() {
         $win.style.display = 'none';
       }, 800);
@@ -62,11 +67,16 @@ function generateQuiz() {
 
   let options = ['resp1', 'resp2', 'resp3', 'resp4'];
   for (i = 0; i < 4; i++) {
-    let randomOption = options.splice(Math.floor(Math.random() * options.length), 1);
+    let randomOption = options.splice(
+      Math.floor(Math.random() * options.length),
+      1
+    );
+
     let $thisDiv = document.createElement('div');
     $thisDiv.innerText = myQuestion[0][randomOption][0];
     $thisDiv.value = myQuestion[0][randomOption][1];
     $thisDiv.classList.add('response');
+
     $responseContainer.appendChild($thisDiv);
   }
 }
